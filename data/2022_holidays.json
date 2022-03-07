@@ -1,0 +1,114 @@
+{
+  "HolidayCalendar": [
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1640926800"},
+          "dateEnd": {"N": "1641013199"},
+          "holiday": {"S":"New Year's Day"},
+          "message": {"S":"Sorry, we are closed for New Year's Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N":"1642395600"},
+          "dateEnd": {"N":"1642481999"},
+          "holiday": {"S":"Martin Luther King Day"},
+          "message": {"S":"Sorry, we are closed for Martin Luther King Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N":"1645419600"},
+          "dateEnd": 	{"N": "1645505999"}	,
+          "holiday": {"S": "Washington's Birthday"},
+          "message": {"S": "Sorry, we are closed for Washington's Birthday"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1653883200"},
+          "dateEnd": {"N": "1653969599"},
+          "holiday": {"S": "Memorial Day"},
+          "message": {"S": "Sorry, we are closed for Memorial Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1655697600"},
+          "dateEnd": {"N": "1655783999"}	,
+          "holiday": {"S": "Juneteenth Indepedence Day"},
+          "message": {"S": "Sorry, we are closed for Juneteenth Indepedence Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1656907200"},
+          "dateEnd": {"N": "1656993599"},
+          "holiday": {"S": "Independence Day"},
+          "message": {"S": "Sorry, we are closed for Independence Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1662350400"},
+          "dateEnd": {"N": "1662436799"},
+          "holiday": {"S": "Labor Day"},
+          "message": {"S": "Sorry, we are closed for Labor Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1665374400"},
+          "dateEnd": {"N": "1665460799"},
+          "holiday": {"S": "Columbus Day"},
+          "message": {"S": "Sorry, we are closed for Columbus Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1668142800"},
+          "dateEnd": {"N": "1668229199"},
+          "holiday": {"S": "Veterans Day"},
+          "message": {"S": "Sorry, we are closed for Veterans Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1669266000"},
+          "dateEnd": {"N": "1669352399"},
+          "holiday": {"S": "Thanksgiving Day"},
+          "message": {"S": "Sorry, we are closed for Thanksgiving Day"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "dateStart": {"N": "1672030800"},
+          "dateEnd": {"N": "1672117199"},
+          "holiday": {"S": "Christmas Day"},
+          "message": {"S": "Sorry, we are closed for Christmas Day"}
+        }
+      }
+    }
+  ]
+}
