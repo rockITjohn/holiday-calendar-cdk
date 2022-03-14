@@ -1,0 +1,60 @@
+{
+  "HolidayCalendar": [
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A7S" },
+          "appeals_7_standard": { "S": "2e9d3679-c3b8-4579-9558-425b74128052" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A9S" },
+          "appeals_9_standard": { "S": "7fa40467-842a-4258-8591-de7f3ad6dc69" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A2H" },
+          "appeals_2_holiday": { "S": "9f683f1a-4ff0-404a-b986-7cccbc8a33e0" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A3H" },
+          "appeals_3_holiday": { "S": "6d07bb75-76cd-4009-8d30-a9d4d1bfdf00" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A5H" },
+          "appeals_5_holiday": { "S": "06e045e1-c9a1-4f5d-a363-2df7dcabe1ff" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A7H" },
+          "appeals_7_holiday": { "S": "61c1a624-fb5f-4f03-9503-36dfed075ebb" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "PK": { "S": "HOUR_SCHEDULE_MAPPING_A9H" },
+          "appeals_9_holiday": { "S": "fa5380b8-35ed-49a1-b10b-547d359c2709" }
+        }
+      }
+    }
+  ]
+}

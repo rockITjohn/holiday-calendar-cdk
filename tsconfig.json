@@ -2,9 +2,8 @@
   "compilerOptions": {
     "target": "ES2018",
     "module": "commonjs",
-    "lib": [
-      "es2018"
-    ],
+    "lib": ["es2018"],
+    "outDir": "./lambdas",
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
@@ -20,12 +19,8 @@
     "experimentalDecorators": true,
     "strictPropertyInitialization": false,
     "resolveJsonModule": true,
-    "typeRoots": [
-      "./node_modules/@types"
-    ]
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types"]
   },
-  "exclude": [
-    "node_modules",
-    "cdk.out"
-  ]
+  "exclude": ["node_modules", "cdk.out", "lib", "bin", "test"]
 }
